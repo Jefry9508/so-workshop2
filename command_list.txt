@@ -1,0 +1,109 @@
+    1  ssh operativos@192.168.104.37
+    2  ssh operativos@192.168.104.27
+    3  poweroff
+    4  ip a
+    5  cd /etc/sysconfig//network-scripts/
+    6  pwd
+    7  ls
+    8  ls -l
+    9  clear
+   10  ls
+   11  nano ifcfg-enp0s3
+   12  vim ifcfg-enp0s3
+   13  clear
+   14  vi ifcfg-enp0s3
+   15  systemctl restart network
+   16  ip a
+   17  systemctl restart network
+   18  systemctl restart network.service
+   19  vi ifcfg-enp0s3
+   20  vi ifcfg-enp0s8
+   21  systemctl restart network
+   22  ip a
+   23  ssh root@192.168.104.24
+   24  exit
+   25  ls
+   26  yum install nano
+   27  vi archivo.txt
+   28  nano archivo.txt 
+   29  delete archivo.txt 
+   30  rm -r archivo.txt 
+   31  ls
+   32  clear
+   33  tree
+   34  clar
+   35  clear
+   36  cat > archivo.txt
+   37  ls
+   38  nano archivo.txt 
+   39  rm -r archivo.txt 
+   40  clear
+   41  ls
+   42  clear
+   43  yum install git -y
+   44  cd /tmp
+   45  git clone https://github.com/jonas/tig.git
+   46  cd tig
+   47  yum istall gcc ncurses-devel ncurses
+   48  yum install gcc ncurses-devel ncurses
+   49  gcc
+   50  make
+   51  make install
+   52  tig
+   53  cd ..
+   54  ls
+   55  rm -rf tig
+   56  ls
+   57  rig
+   58  tig
+   59  cd tmp
+   60  git clone https://github.com/Jefry9508/so-workshop2.git
+   61  tig
+   62  ls
+   63  cd so-workshop2/
+   64  tig
+   65  touch message_1.txt
+   66  ls
+   67  git status
+   68  git add message_1.txt 
+   69  git status
+   70  git reset message_1.txt 
+   71  git status
+   72  git checkout n-b 
+   73  git branch 
+   74  git checkout -b A00320232/workshop2
+   75  git branch
+   76  git checkout master
+   77  git branch -D A00320232/workshop2
+   78  git checkout -b jcardona/workshop2
+   79  git branch
+   80  touch message_1.txt
+   81  ls
+   82  clear
+   83  git add message_1.txt 
+   84  git status
+   85  git comment -m "Add message_1.txt"
+   86  git commit -m "Add message_1.txt"
+   87  git config --global user.name "Jefry Cardona Chilito"
+   88  git config --global user.email jeffrykr95@gmail.com
+   89  tig
+   90  git status
+   91  ls
+   92  tig
+   93  cat .git/config
+   94  git push origin jcardona/workshop2
+   95  tig
+   96  history
+   97  poweroff
+   98  clear
+   99  history
+  100  history > command_list.txt
+  101  nano command_list.txt 
+  102  git add command_list.txt 
+  103  ls
+  104  cd tmp
+  105  cd /tmp
+  106  ls
+  107  cd so-workshop2/
+  108  ls
+  109  history > command_list.txt
